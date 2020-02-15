@@ -1,0 +1,319 @@
+ID,status,superkingdom,phylum,class,order,family,genus,species
+all_metabat_bins/BCW_200001.1.fa,found,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Acidovorax,Acidovorax wautersii
+all_metabat_bins/BCW_200002.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200003.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200004.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200004.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200005.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200005.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200006.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200006.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200007.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200007.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200008.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200009.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200010.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200010.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200011.1.fa,found,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Acidovorax,Acidovorax wautersii
+all_metabat_bins/BCW_200012.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200013.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200014.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200015.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200016.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200017.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200018.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200019.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200019.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200020.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200020.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200021.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200021.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200022.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200022.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200023.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200024.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200024.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200025.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200026.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200027.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200028.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200029.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200030.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200031.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+all_metabat_bins/BCW_200032.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200033.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200034.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200035.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200036.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter braakii
+all_metabat_bins/BCW_200037.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200037.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200039.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200039.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200040.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200041.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200042.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200042.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200043.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200044.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200045.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200045.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200046.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas protegens
+all_metabat_bins/BCW_200047.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200048.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+all_metabat_bins/BCW_200048.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200049.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200050.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200051.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200052.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200052.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+all_metabat_bins/BCW_200053.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200054.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200055.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200056.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+all_metabat_bins/BCW_200057.1.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200058.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas protegens
+all_metabat_bins/BCW_200058.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200060.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200061.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,
+all_metabat_bins/BCW_200063.1.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200064.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+all_metabat_bins/BCW_200065.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200066.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200067.1.fa,found,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Microbacterium hominis
+all_metabat_bins/BCW_200068.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200069.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200070.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200070.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200071.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200072.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200072.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200073.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200074.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200074.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. 638
+all_metabat_bins/BCW_200077.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200078.1.fa,found,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Micrococcus,Micrococcus luteus
+all_metabat_bins/BCW_200079.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200080.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200080.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200080.3.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200081.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200082.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200083.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200084.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200085.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200085.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200085.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200085.4.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200085.5.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200086.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200087.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200087.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter braakii
+all_metabat_bins/BCW_200087.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,
+all_metabat_bins/BCW_200089.1.fa,disagree,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,
+all_metabat_bins/BCW_200089.2.fa,disagree,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,
+all_metabat_bins/BCW_200091.1.fa,disagree,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,
+all_metabat_bins/BCW_200091.2.fa,found,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,Burkholderia cepacia
+all_metabat_bins/BCW_200092.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter sp. UCD-UG_FMILLET
+all_metabat_bins/BCW_200093.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200094.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200095.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200096.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200097.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200098.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200098.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200098.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200098.4.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200099.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200100.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200101.1.fa,found,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus eiseniae
+all_metabat_bins/BCW_200102.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200103.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+all_metabat_bins/BCW_200104.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200105.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200106.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200107.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200108.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200108.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200109.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200111.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter farmeri
+all_metabat_bins/BCW_200112.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200113.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200114.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+all_metabat_bins/BCW_200115.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Morganellaceae,Morganella,
+all_metabat_bins/BCW_200116.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200117.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200118.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200119.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,
+all_metabat_bins/BCW_200120.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200121.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200122.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200123.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200124.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200126.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200126.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200126.3.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200127.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200127.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200127.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter farmeri
+all_metabat_bins/BCW_200127.4.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter farmeri
+all_metabat_bins/BCW_200127.5.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200128.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200129.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200130.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus casseliflavus
+all_metabat_bins/BCW_200130.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus casseliflavus
+all_metabat_bins/BCW_200131.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200131.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200132.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200133.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200134.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200134.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200134.3.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200135.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200135.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200136.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200137.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200138.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200139.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200139.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200140.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200140.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200140.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200141.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200142.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200143.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+all_metabat_bins/BCW_200144.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia sp. Leaf51
+all_metabat_bins/BCW_200145.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+all_metabat_bins/BCW_200146.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia sp. Leaf51
+all_metabat_bins/BCW_200147.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200148.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200149.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia sp. Leaf51
+all_metabat_bins/BCW_200150.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200151.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+all_metabat_bins/BCW_200152.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia sp. Leaf51
+all_metabat_bins/BCW_200153.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+all_metabat_bins/BCW_200154.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+all_metabat_bins/BCW_200155.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+all_metabat_bins/BCW_200156.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200157.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+all_metabat_bins/BCW_200158.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200159.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200160.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200161.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200162.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200163.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200164.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200164.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200165.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200166.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200166.2.fa,found,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,
+all_metabat_bins/BCW_200167.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200168.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200169.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200170.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200170.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200171.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200172.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200173.1.fa,found,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Micrococcus,Micrococcus luteus
+all_metabat_bins/BCW_200174.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200175.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200176.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200176.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200177.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+all_metabat_bins/BCW_200178.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200178.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200178.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200179.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200179.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200180.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200181.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200182.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200183.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200184.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200185.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200185.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200186.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200186.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200187.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200187.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200188.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200189.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200189.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200189.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200189.4.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200191.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200191.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200191.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200192.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200193.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200193.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200194.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200195.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200196.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200197.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200198.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200199.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200200.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200201.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200202.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+all_metabat_bins/BCW_200203.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200204.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200204.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200204.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200205.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200205.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200205.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200206.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200207.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200207.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+all_metabat_bins/BCW_200208.1.fa,disagree,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,,
+all_metabat_bins/BCW_200209.1.fa,found,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Leifsonia,Leifsonia aquatica
+all_metabat_bins/BCW_200210.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200211.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200211.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200212.1.fa,disagree,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,
+all_metabat_bins/BCW_200212.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200213.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia sp. Leaf51
+all_metabat_bins/BCW_200214.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200215.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium genomosp. 6
+all_metabat_bins/BCW_200216.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200217.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+all_metabat_bins/BCW_200217.2.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200218.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200219.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200221.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200222.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+all_metabat_bins/BCW_200222.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+all_metabat_bins/BCW_200223.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200223.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200224.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200224.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200224.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200225.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200226.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200227.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Kosakonia,Kosakonia sacchari
+all_metabat_bins/BCW_200228.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200228.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200229.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200230.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200230.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200231.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200232.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200233.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200233.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+all_metabat_bins/BCW_200234.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200235.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200236.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200237.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200238.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200239.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200239.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+all_metabat_bins/BCW_200239.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200240.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200240.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+all_metabat_bins/BCW_200240.3.fa,nomatch,,,,,,,
+all_metabat_bins/BCW_200241.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+all_metabat_bins/BCW_200242.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200242.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+all_metabat_bins/BCW_200243.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+all_metabat_bins/BCW_200243.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+all_metabat_bins/BCW_200243.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,

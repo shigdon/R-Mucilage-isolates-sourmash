@@ -1,0 +1,43 @@
+---
+title: "sourmash_ggtree"
+author: "Shawn Higdon"
+date: "1/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library(ape)
+library(ggtree)
+library(treeio)
+library(circlize)
+library(dendextend)
+```
+
+```{r}
+
+mat <- dist2(smash_no_euk_mat) # requires code run from bcw_sourmash_cmp_all.Rmd for 'smash_no_euk_mat' to populate global environment.
+
+fit <- hclust(mat)
+
+smash_no_euk_cmp_tree <- as.phylo(fit)
+
+write.tree(phy = smash_no_euk_cmp_tree, file = "smash_no_euk_cmp_tree.newick")
+
+```
+
+# ggtree
+```{r}
+
+tree_1 <- ggtree(smash_no_euk_cmp_tree, color = "firebrick", layout = "circular")
+
+tree_1 <- tree_1 + geom_tiplab(aes(angle = angle), size=1, color = "black")
+
+tree_1
+```
+
+
+

@@ -1,0 +1,149 @@
+---
+title: "Lactococcus_cmp_analysis"
+author: "Shawn Higdon"
+date: "2/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library(ape)
+library(readr)
+library(tidyverse)
+library(circlize)
+library(ComplexHeatmap)
+library(viridis)
+library(RColorBrewer)
+library(randomcoloR)
+```
+
+```{r}
+# read in lactococcus smash_cmp_matrix
+lac_smash_df <- read.csv("./sourmash_analysis/lactococcus_k31_cmp.csv", header = T, colClasses = "character", check.names = F)
+
+# read in BCW IDS to convert ABB IDS to BCW IDS
+isolate_id_map <- read.csv("abb_genome_bcw_labels.csv", header = T)
+## sub '_' for '-'
+isolate_id_map$BCW_ID <- sub("_", "-", isolate_id_map$BCW_ID)
+isolate_id_map$ABB_ID <- sub("_", "-", isolate_id_map$ABB_ID)
+
+# trim '.contigs.fa'
+colnames(lac_smash_df) <- sub(".contigs.fa", "", colnames(lac_smash_df))
+
+# sub '_' for '-'
+colnames(lac_smash_df) <- sub("_", "-", colnames(lac_smash_df))
+
+#colnames(lac_smash_df)
+
+# trim GBK names
+colnames(lac_smash_df) <- sub("_.+", "", colnames(lac_smash_df))
+#colnames(lac_smash_df)[150:191]
+
+# set rownames equal to colnames
+rownames(lac_smash_df) <- colnames(lac_smash_df)
+
+#tail(colnames(lac_smash_df))
+
+# create bcw_id_variable
+lac_smash_df$BCW.ID <- isolate_id_map$BCW_ID[match(rownames(lac_smash_df), isolate_id_map$ABB_ID)]
+
+#lac_smash_df$BCW.ID
+
+# sub rownames with complete bcw-ids
+rownames(lac_smash_df)[1:3] <- lac_smash_df$BCW.ID[1:3]
+colnames(lac_smash_df)[1:3] <- lac_smash_df$BCW.ID[1:3]
+#head(rownames(lac_smash_df))
+#head(colnames(lac_smash_df))
+
+# read in sourmash genbank lca
+smash_lca_gbk <- read.csv("./sourmash_analysis/sm-lca-whole_genomes-all-k31.csv", header = T)
+
+# sub '_' for '-' in ID variable
+smash_lca_gbk$ID <- sub("_", "-", smash_lca_gbk$ID)
+
+## add bcw_id
+smash_lca_gbk$BCW.ID <- isolate_id_map$BCW_ID[match(smash_lca_gbk$ID, isolate_id_map$ABB_ID)]
+
+
+## fill in empty genera with 'unassigned'
+smash_lca_gbk$genus <- sub("^$", "unassigned", smash_lca_gbk$genus)
+#head(smash_lca_gbk$genus)
+
+# add genus to lactococcus smash cmp df
+lac_smash_df$Genus <- smash_lca_gbk$genus[match(lac_smash_df$BCW.ID, smash_lca_gbk$BCW.ID)]
+
+#tail(colnames(lac_smash_df))
+#head(lac_smash_df$Genus, n=30)
+
+# if NA for genus, replace with "Lactococcus"
+class(lac_smash_df$Genus)
+lac_smash_df$Genus <- stringi::stri_replace_na("Lactococcus", NA)
+
+# make matrix for plotting
+lac_smash_mat <- as.matrix(lac_smash_df[,1:191])
+
+# make 'smash_mat' numeric in type
+class(lac_smash_mat) <- "numeric"
+
+#head(colnames(lac_smash_mat))
+#head(rownames(lac_smash_mat))
+
+# assign matrix color scale
+smash_mat_color <- magma(direction = -1, 10)
+
+# make distinct color palette for genus colors
+set.seed(8888)
+lac_genus_colors <- distinctColorPalette(length(unique(lac_smash_df$Genus)))
+
+# make the complex heatmap
+
+chm_lac_smash_mat <- 
+  Heatmap(lac_smash_mat,
+          name = "Jaccard Index",
+          heatmap_legend_param = list(at = seq(0, 1, 0.2),
+                                      color_bar = "continuous",
+                                      legend_direction = "horizontal",
+                                      legend_width = unit(18, "cm"),
+                                      title_position = "topleft",
+                                      title_gp = gpar(fontsize = 24),
+                                      labels_gp = gpar(fontsize = 20)),
+          col = smash_mat_color,
+          show_column_names = T,
+          show_row_names = T,
+          row_dend_width = unit(2, "cm"),
+          column_dend_height = unit(2, "cm"),
+          row_names_gp = gpar(fontsize = 4),
+          column_names_gp = gpar(fontsize = 4)
+  )
+
+chm_lac_smash_genus <- 
+  Heatmap(lac_smash_df$Genus,
+          name = "Genus",
+          heatmap_legend_param = list(ncol = 1,
+                                      title_position = "topleft",
+                                      title_gp = gpar(fontsize = 16),
+                                      labels_gp = gpar(fontsize = 11)),
+          show_heatmap_legend = TRUE,
+          show_column_names = T,
+          width = unit(5, "mm"),
+          column_names_gp = gpar(fontsize = 14),
+          col = lac_genus_colors)
+
+chm_lac_smash_list <- chm_lac_smash_mat + chm_lac_smash_genus
+
+#draw(chm_lac_smash_list, heatmap_legend_side = "bottom", annotation_legend_side = "right")
+
+# save the plot as EPS
+setEPS()
+postscript("./Plots/Lactococcus_GBK_smash_cmp.eps", width = 16, height = 16)
+draw(chm_lac_smash_mat, heatmap_legend_side = "bottom")
+dev.off()
+```
+

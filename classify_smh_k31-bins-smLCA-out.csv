@@ -1,0 +1,424 @@
+ID,status,superkingdom,phylum,class,order,family,genus,species
+sourmash_asm_binned/001.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/002.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas putida
+sourmash_asm_binned/003.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/004.1.fa,found,Eukaryota,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,Rhodotorula graminis
+sourmash_asm_binned/006.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/007.1.fa,disagree,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,
+sourmash_asm_binned/007.2.fa,nomatch,,,,,,,
+sourmash_asm_binned/008.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/009.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/010.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/011.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/014.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/015.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/016.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/017.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/018.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/019.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/020.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/021.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/022.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea dispersa
+sourmash_asm_binned/023.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/024.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/025.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/026.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea dispersa
+sourmash_asm_binned/027.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+sourmash_asm_binned/028-1.1.fa,found,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus cereus
+sourmash_asm_binned/028-2.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+sourmash_asm_binned/029.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/030.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/031.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/032.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Hafniaceae,Hafnia,Hafnia alvei
+sourmash_asm_binned/033.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/033.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/034.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/036.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/037.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/038.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/039.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/041.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/042.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/042.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/043.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/044.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/045.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/046.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/048.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/049.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/051.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/052.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+sourmash_asm_binned/053.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/054.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/055.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/056.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/058.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/058.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea vagans
+sourmash_asm_binned/059.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/060.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+sourmash_asm_binned/061.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/062.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/064.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+sourmash_asm_binned/065.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/066.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/067.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/068.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/069.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/070.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/071.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/072.1.fa,found,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Rhodococcus erythropolis
+sourmash_asm_binned/073.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/074.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/075.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/076.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/077.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/078.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/079.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/081.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/082.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/083.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/083.2.fa,found,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Curtobacterium,
+sourmash_asm_binned/084.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/085.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/087.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/088.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/089.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/090.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/090.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea vagans
+sourmash_asm_binned/091.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+sourmash_asm_binned/092.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/093.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/094.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/095.1.fa,found,Bacteria,,,,,,
+sourmash_asm_binned/096.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/098.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+sourmash_asm_binned/099.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+sourmash_asm_binned/100.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/101.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/102.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/103.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+sourmash_asm_binned/104.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/105.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/106.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/109.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea dispersa
+sourmash_asm_binned/110.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/111.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/112.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/113.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+sourmash_asm_binned/114.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/115.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/116.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/117.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/118.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/119.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/120.1.fa,found,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Curtobacterium,
+sourmash_asm_binned/121.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/122.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/124.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/125.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/126.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/127.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/128.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/129.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/130.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/131.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/132.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/133.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/134.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+sourmash_asm_binned/135.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/136.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/137.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/138.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/138.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/138.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/139.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/140.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/141.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea dispersa
+sourmash_asm_binned/142.1.fa,disagree,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,
+sourmash_asm_binned/142.2.fa,nomatch,,,,,,,
+sourmash_asm_binned/143.1.fa,disagree,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Curtobacterium,
+sourmash_asm_binned/143.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/144.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/144.2.fa,nomatch,,,,,,,
+sourmash_asm_binned/145.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/146.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/147.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/148.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/149.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/150.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/151.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. URIL14HWK12:I6
+sourmash_asm_binned/152.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/153.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/155.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/155.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+sourmash_asm_binned/156.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/157.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/158.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/159.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/160.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/161.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/162.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/163.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia fonticola
+sourmash_asm_binned/164.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/165.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/166.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Hafniaceae,Hafnia,Hafnia alvei
+sourmash_asm_binned/167.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/169.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+sourmash_asm_binned/171.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/172.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/172.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/173.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/173.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/173.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/174.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/174.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/174.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/175.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/175.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/176.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/177.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/178.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/179.1.fa,found,Bacteria,unassigned,unassigned,unassigned,unassigned,unassigned,bacteria symbiont BFo1 of Frankliniella occidentalis
+sourmash_asm_binned/180.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/180.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/181.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/182.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/183.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/184.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/185.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/186.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/187.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/189.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/189.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. NFACC25
+sourmash_asm_binned/191.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/192.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/193.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/194.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/195.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/196.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/197.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/198.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/199.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/200.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea dispersa
+sourmash_asm_binned/201.1.fa,disagree,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Curtobacterium,
+sourmash_asm_binned/202.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/203.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/204.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/205.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/206.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/208.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/209.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/210.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/211.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/213.1.fa,found,Bacteria,unassigned,unassigned,unassigned,unassigned,unassigned,bacteria symbiont BFo1 of Frankliniella occidentalis
+sourmash_asm_binned/215.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/216.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/217.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/218.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/219.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/219.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/220.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/222.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/223.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/224.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/225.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter asburiae
+sourmash_asm_binned/226.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/227.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/227.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/228.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/229.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/230.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/232.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/233.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/234.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/235.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/236.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/237.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/238.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/239.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/240.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+sourmash_asm_binned/241.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/242.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/243.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/244.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/245.1.fa,found,Bacteria,unassigned,unassigned,unassigned,unassigned,unassigned,bacteria symbiont BFo1 of Frankliniella occidentalis
+sourmash_asm_binned/247.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/248.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/249.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/250.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus casseliflavus
+sourmash_asm_binned/250.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus casseliflavus
+sourmash_asm_binned/250.3.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,
+sourmash_asm_binned/251.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/252.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/253.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/254.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/255.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Hafniaceae,Hafnia,Hafnia alvei
+sourmash_asm_binned/256.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/257.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/259.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/260-1.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/260-2.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/261.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/263.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/264.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/265.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/266.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/268.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/269.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/270.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+sourmash_asm_binned/271.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/272.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/274.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/275.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/276.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/277.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/278.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/279.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/280.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea dispersa
+sourmash_asm_binned/281.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/282.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/283.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/284.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/287.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/288.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/289.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/290.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/292.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/294.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/295.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/296.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/297.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/298.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/299.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/300.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/301.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/301.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/302.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/303.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/304.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/304.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/305.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/306.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/307.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/308.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/310.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/311.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/312.1.fa,disagree,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,
+sourmash_asm_binned/313.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/314.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/314.2.fa,nomatch,,,,,,,
+sourmash_asm_binned/315.1.fa,found,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Marinococcus,Marinococcus halotolerans
+sourmash_asm_binned/316.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/318.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/320.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/321.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/321.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+sourmash_asm_binned/322.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/323.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/324.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/325.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/326.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/326.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/327.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/328.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/330.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+sourmash_asm_binned/331.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae
+sourmash_asm_binned/332.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/333.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/334.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/335.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/336.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+sourmash_asm_binned/337.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/338.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/339.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/340.1.fa,disagree,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Curtobacterium,
+sourmash_asm_binned/341.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/342.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii
+sourmash_asm_binned/344.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,
+sourmash_asm_binned/345.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/346.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/346.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+sourmash_asm_binned/347.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea ananatis
+sourmash_asm_binned/348.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/348.2.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+sourmash_asm_binned/349.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/350.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/352.1.fa,disagree,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Herbaspirillum,
+sourmash_asm_binned/353.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/354.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/354.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/354.3.fa,nomatch,,,,,,,
+sourmash_asm_binned/355.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/356.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/357.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia
+sourmash_asm_binned/358.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/359.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/360.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/361.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/362.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/363.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/364.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/365.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/366.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/367.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/368.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,,
+sourmash_asm_binned/369.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/370.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia fonticola
+sourmash_asm_binned/371.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/372.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/372.2.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/372.3.fa,nomatch,,,,,,,
+sourmash_asm_binned/374.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/375.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/376.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/377.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella michiganensis
+sourmash_asm_binned/378.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/380.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/381.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/382.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia fonticola
+sourmash_asm_binned/383.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+sourmash_asm_binned/384.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/384.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia fonticola
+sourmash_asm_binned/385.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/385.2.fa,nomatch,,,,,,,
+sourmash_asm_binned/386.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/387.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/388.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia fonticola
+sourmash_asm_binned/389.1.fa,found,Bacteria,unassigned,unassigned,unassigned,unassigned,unassigned,bacteria symbiont BFo1 of Frankliniella occidentalis
+sourmash_asm_binned/390.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/391.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/391.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/391.3.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/391.4.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/392.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/393.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/394.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/395.1.fa,found,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Agrobacterium,Agrobacterium tumefaciens
+sourmash_asm_binned/396.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/398.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia fonticola
+sourmash_asm_binned/399.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,,,
+sourmash_asm_binned/400.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/401.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia liquefaciens
+sourmash_asm_binned/402.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/403.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/404.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/405.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/405.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/405.3.fa,found,Bacteria,unassigned,unassigned,unassigned,unassigned,unassigned,bacteria symbiont BFo1 of Frankliniella occidentalis
+sourmash_asm_binned/406.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/407.1.fa,found,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis
+sourmash_asm_binned/408.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/408.2.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,
+sourmash_asm_binned/409.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/410.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/411.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/412.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,
+sourmash_asm_binned/413.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/414.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Rahnella,
+sourmash_asm_binned/415.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+sourmash_asm_binned/418.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+sourmash_asm_binned/419.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/420.1.fa,disagree,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,
+sourmash_asm_binned/421.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+sourmash_asm_binned/424.1.fa,found,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella,Raoultella terrigena
+sourmash_asm_binned/425.1.fa,disagree,Eukaryota,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,

@@ -1,0 +1,124 @@
+---
+title: "BCW isolates smLCA MetacodeR"
+author: "Shawn Higdon"
+date: "8/18/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Install most recent version of metacodeR
+
+```{r, message=FALSE}
+
+#devtools::install_github("ropensci/taxa")
+#devtools::install_github("grunwaldlab/metacoder")
+library(metacoder)
+library(readr)
+library(dplyr)
+library(viridis)
+library(RColorBrewer)
+library(tidyverse)
+```
+
+# Parse data for metacodeR
+```{r}
+
+# read in the csv file with LCA classification lineage of each genome bin
+raw_data <- read_csv(file = "./sourmash_analysis/lca-classify-gtdb89-k31-bins.csv")
+
+# remove records with NA values that indicate unclassified genome bins
+raw_data <- filter(raw_data, !is.na(raw_data$superkingdom))
+
+# empty cells for genus are 'unassigned'
+raw_data[is.na(raw_data)] <- "unassigned"
+  
+species.obj <- parse_tax_data(raw_data, class_cols = 3:9)
+#print(species.obj)
+  
+#n_obs(species.obj, "tax_data") # Count number of rows in table for each taxon
+
+ht.species <- heat_tree(species.obj,
+          node_label = taxon_names,
+          node_color = n_obs,
+          node_size = n_obs,
+          node_label_size_range = c(0.01, 0.025),
+          node_size_range = c(0.01, 0.025),
+          edge_size_range = c(0.002, 0.002),
+          node_color_range = brewer.pal(4, "RdYlBu"),
+          node_color_axis_label = "Frequency",
+          layout = "davidson-harel",
+          initial_layout = "reingold-tilford",
+          repel_force = 2,
+          background_color = "white",
+          node_label_color = "black"
+          
+          )
+
+ht.species
+
+# save the plot as EPS
+setEPS()
+postscript("./Plots/S1_Fig.eps", width = 14, height = 10)
+ht.species
+dev.off()
+```
+
+
+## Supp Table of Sourmash LCA analysis on bins
+```{r}
+# read in BCW IDS to convert ABB IDS to BCW IDS
+isolate_id_map <- read.csv("abb_genome_bcw_labels.csv", header = T)
+
+# clone 'raw_data'
+
+smash_lca_bins <- raw_data
+
+# clone ID
+smash_lca_bins$isolate <- smash_lca_bins$ID
+
+# split isolate number and bin id
+smash_lca_bins <- smash_lca_bins %>% 
+  separate(col = isolate, into = c("root", "bin"), sep = "(\\.)", remove = F)
+
+# add leading zero to abb ids that need it
+#smash_lca_bins$root[299:378] <- str_pad(smash_lca_bins$root[299:378], 3, side = "left", pad = "0")
+
+# match bcw id to abb id
+smash_lca_bins$bcw_id <- isolate_id_map$BCW_ID[match(smash_lca_bins$root, isolate_id_map$ABB_ID)]
+
+# unite bcw_id with bin number
+smash_lca_bins <- smash_lca_bins %>%
+  unite(col = bin_id, c("bcw_id", "bin"), sep = ".", remove = F)
+
+# select columns for table
+smash_lca_bins_table <- smash_lca_bins %>% select(bin_id,
+                                                  superkingdom,
+                                                  phylum,
+                                                  class,
+                                                  order,
+                                                  family,
+                                                  genus,
+                                                  species)
+
+# Order the table ascending by bin id
+smash_lca_bins_table <- arrange(smash_lca_bins_table, bin_id)
+
+# sub '_' for '-'
+smash_lca_bins_table$bin_id <- sub("_", "-", smash_lca_bins_table$bin_id)
+
+# write the table
+write_csv(smash_lca_bins_table, "./Tables/S5_Table.csv")
+
+```
+
+## Summary of classified taxa
+```{r}
+smash_lca_bins %>%
+  group_by(genus) %>%
+  summarise(count = n_distinct(genus))
+```
+
+> There are 26 unique genera classified among isolate genome bins and many with genus classifications as "unassigned"

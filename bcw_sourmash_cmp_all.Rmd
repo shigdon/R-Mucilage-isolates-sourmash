@@ -1,0 +1,335 @@
+---
+title: "bcw_sourmash_cmp_all"
+author: "Shawn Higdon"
+date: "8/22/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library(ape)
+library(readr)
+library(dplyr)
+library(circlize)
+library(ComplexHeatmap)
+library(viridis)
+library(RColorBrewer)
+library(randomcoloR)
+```
+
+# ComplexHeatmap visualization
+
+## All 588 Bacterial Isolates
+```{r}
+# Read in Minhash Distance matrix from sourmash cmp
+smash_df <- read.csv("./sourmash_analysis/smash_cmp_k31_588.csv", header = T, colClasses = "character", check.names = F)
+
+# set rownames equal to colnames
+rownames(smash_df) <- colnames(smash_df)
+
+# Read in GTDB Taxonomy from sourmash lca classify
+smash_lca_gtdb <- read.csv("./sourmash_analysis/lca-classify-all-k31-gtdb89.csv", header = T)
+
+# add genus assignment to each row of dataframe
+smash_df$Genus <- smash_lca_gtdb$genus[match(rownames(smash_df), smash_lca_gtdb$ID)]
+
+#sort(unique(smash_df$Genus))
+
+# empty cells for genus are 'unassigned'
+smash_df$Genus <- sub("^$", "unassigned", smash_df$Genus)
+
+# make matrix for plotting
+smash_mat <- as.matrix(smash_df[, grep("BCW-2", colnames(smash_df), rownames(smash_df))])
+
+# make 'smash_mat' numeric in type
+class(smash_mat) <- "numeric"
+
+# make distinct color palette for genus colors
+set.seed(8888)
+genus_colors <- distinctColorPalette(length(unique(smash_df$Genus)))
+
+# assign matrix color scale
+smash_mat_color <- inferno(direction = -1, 10)
+
+# make the complex heatmap
+
+chm_smash_mat <- 
+  Heatmap(smash_mat,
+          name = "Jaccard Index",
+          heatmap_legend_param = list(at = seq(0, 1, 0.2)),
+          col = smash_mat_color,
+          row_names_gp = gpar(fontsize = 1),
+          column_names_gp = gpar(fontsize = 1)
+  )
+
+chm_smash_bcw_genus <- 
+  Heatmap(smash_df$Genus, name = "Genus", col = genus_colors, 
+          width = unit(5, "mm"))
+
+chm_smash_bcw_list <- chm_smash_bcw_mat + chm_smash_bcw_genus
+
+draw(chm_smash_bcw_list, heatmap_legend_side = "right", annotation_legend_side = "right")
+```
+
+
+## 588 Isolates + Bins
+
+```{r}
+# read in BCW IDS to convert ABB IDS to BCW IDS
+isolate_id_map <- read.csv("abb_genome_bcw_labels.csv", header = T)
+
+# read in number of bins from metabat
+all_genome_bin_count <- read.csv("all_bin_count.csv", header = F, col.names = c("ID", "n_bins"))
+
+# add proper BCW_ID to isolate bin counts with old abb ids.
+all_genome_bin_count$BCW_ID <- isolate_id_map$BCW_ID[match(all_genome_bin_count$ID, isolate_id_map$ABB_ID)]
+## change '_' to '-'
+all_genome_bin_count$BCW_ID <-sub("_", "-", all_genome_bin_count$BCW_ID)
+
+# add bin number to each row of dataframe
+smash_df$bins <- all_genome_bin_count$n_bins[match(rownames(smash_df), all_genome_bin_count$BCW_ID)]
+
+# make distinct color palette for n_bins colors
+smash_n_bins_colors <- colorRampPalette(brewer.pal(5, "Spectral"))(5)
+
+# make the complex heatmap
+
+chm_smash_mat <- 
+  Heatmap(smash_mat,
+          name = "Jaccard Index",
+          heatmap_legend_param = list(color_bar = "continuous",
+                                      legend_direction = "horizontal",
+                                      legend_width = unit(6, "cm"),
+                                      title_position = "topleft",
+                                      title_gp = gpar(fontsize = 16),
+                                      labels_gp = gpar(fontsize = 14)),
+          col = smash_mat_color,
+          show_column_names = F,
+          show_row_names = F,
+          row_names_gp = gpar(fontsize = 0.8),
+          column_names_gp = gpar(fontsize = 0.8)
+  )
+
+chm_smash_genus <- 
+  Heatmap(smash_df$Genus,
+          name = "Genus",
+          col = genus_colors,
+          heatmap_legend_param = list(ncol = 9,
+                                      title_position = "topleft",
+                                      title_gp = gpar(fontsize = 16),
+                                      labels_gp = gpar(fontsize = 11)),
+          show_heatmap_legend = TRUE,
+          show_column_names = F,
+          width = unit(5, "mm"),
+          column_names_gp = gpar(fontsize = 14))
+
+chm_smash_bins <-
+  Heatmap(smash_df$bins,
+          name = "N Bins",
+          col = smash_n_bins_colors,
+          heatmap_legend_param = list(title_position = "topleft",
+                                      title_gp = gpar(fontsize = 16),
+                                      labels_gp = gpar(fontsize = 11)),
+          show_column_names = F,
+          width = unit(5, "mm"),
+          column_names_gp = gpar(fontsize = 14))
+
+
+chm_smash_list <- chm_smash_mat + chm_smash_genus + chm_smash_bins
+
+# save the plot as EPS
+setEPS()
+postscript("./Plots/Fig1A.eps", width = 16, height = 16)
+draw(chm_smash_list, heatmap_legend_side = "bottom")
+dev.off()
+
+```
+
+## Calculate metrics 
+```{r}
+# number of non-eukaryotic isolates with "unassigned" genus
+smash_df %>% count(Genus, sort = TRUE)
+
+smash_df %>% count(bins, sort = TRUE)
+
+```
+
+## Sourmash LCA Supplementary Tables
+
+### all isolate genomes
+```{r}
+# subset for supp table
+
+# remove ABB ID
+smash_lca_supp_table <- smash_lca_gtdb
+
+# re-order with BCW_ID first
+smash_lca_supp_table <- smash_lca_supp_table %>% select(ID,
+                                                        superkingdom,
+                                                        phylum,
+                                                        class,
+                                                        order,
+                                                        family,
+                                                        genus,
+                                                        species)
+
+# fill all empty cells with "unclassified"
+smash_lca_supp_table <- as_tibble(apply(smash_lca_supp_table, 2, function(x) gsub("^$|^ $", "unassigned", x)))
+
+# write to file
+write_csv(smash_lca_supp_table, "./Tables/S4_Table.csv")
+```
+
+### Pure, single isolate genomes
+```{r}
+# read in list of single isolates
+single_isolate_list <- read_csv("./meta-data/single_isolates_complete_cases.csv", col_names = F)
+
+# replace _ with -
+single_isolate_list$X1 <- sub("_", "-", single_isolate_list$X1)
+
+smash_lca_pure_isolates_supp_table <- smash_lca_supp_table %>% 
+  filter(BCW_ID %in% single_isolate_list$X1)
+
+isolate_check <- single_isolate_list %>% filter(!X1 %in% smash_lca_pure_isolates_supp_table$BCW_ID)
+
+
+```
+
+
+## Assembly Stats
+
+> Assembly stats for isolates contained within sourmash analysis of non-eukaryotic genomes. LCA data was used to remove fungal genomes from the sourmash comparison.
+
+```{r, message=FALSE}
+# Read in quast Summary for all isolate assemblies done with MEgahit
+asm_stats <- read_tsv("assembly_stats/all_quast_reports.tsv") # includes eukaryotic isolates
+
+# Read in assembly coverage stat table
+asm_cov <- read.table("assembly_stats/avg_coverage.tsv", header = T)
+
+# Add AVG_COV to asm_stats
+asm_stats <- inner_join(asm_stats, asm_cov, by = "Assembly")
+
+# Add Bin info for each isolate
+bin_stats <- read.csv("./all_bin_count.csv", header = F, col.names = c("Assembly", "n_bins"))
+
+# Add Bin info to asm_stats
+asm_stats <- inner_join(asm_stats, bin_stats, by = "Assembly")
+
+# add BCW labels to all
+asm_stats$BCW_ID <- isolate_id_map$BCW_ID[match(asm_stats$Assembly, isolate_id_map$ABB_ID)]
+
+# add BCW_ID variable back to smash_no_euk_df
+smash_no_euk_df$BCW_ID <- rownames(smash_no_euk_df)
+
+# remove eukaryotic isolates
+asm_stats_no_euk <- subset(asm_stats, (BCW_ID %in% smash_no_euk_df$BCW_ID))
+
+# round coverage value
+asm_stats_no_euk$AVG_COV <- round(asm_stats_no_euk$AVG_COV, digits = 2)
+
+# select variables for table in paper
+
+asm_stats_no_euk <- select(asm_stats_no_euk,
+                           "BCW_ID",
+                           "# contigs",
+                           "Total length",
+                           "Largest contig",
+                           "N50",
+                           "GC (%)",
+                           "AVG_COV",
+                           "n_bins")
+
+# convert variables expressed in bp
+## Largest contig (change to Kbp)
+asm_stats_no_euk$`Largest contig` <- asm_stats_no_euk$`Largest contig`/100000
+asm_stats_no_euk$`Largest contig` <- round(asm_stats_no_euk$`Largest contig`, digits = 2)
+
+## Total Length (change to Mbp)
+asm_stats_no_euk$`Total length` <- asm_stats_no_euk$`Total length`/1000000
+asm_stats_no_euk$`Total length` <- round(asm_stats_no_euk$`Total length`, digits = 2)
+
+# convert variables expressed in bp
+## N50 (change to Kbp)
+asm_stats_no_euk$N50 <- asm_stats_no_euk$N50/100000
+asm_stats_no_euk$N50 <- round(asm_stats_no_euk$N50, digits = 2)
+
+# reset colnames for table in paper
+colnames(asm_stats_no_euk) <- c("Isolate",
+                                "Contigs (n)",
+                                "Total Length (Mb)",
+                                "Largest Contig (Kb)",
+                                "N50 (Kb)",
+                                "GC (%)",
+                                "Mean Fold Coverage",
+                                "Bins (n)")
+
+asm_stats_no_euk <- asm_stats_no_euk %>% arrange(Isolate)
+
+# Save asm stats no euk file for table
+write_csv(asm_stats_no_euk, "./asm_stats_no_euk.csv")
+write_csv(asm_stats_no_euk, "./../Fig_3_NIF_Gene_Analysis_R/mucilage_nif_microbes/asm_stats_no_euk.csv")
+```
+
+```{r}
+
+library(formattable)
+library("webshot")
+library("htmltools")
+#webshot::install_phantomjs()
+
+
+export_formattable <- function(f, file, width = "100%", height = NULL, 
+                               background = "white", delay = 0.2)
+    {
+      w <- as.htmlwidget(f, width = width, height = height)
+      path <- html_print(w, background = background, viewer = NULL)
+      url <- paste0("file:///", gsub("\\\\", "/", normalizePath(path)))
+      webshot(url,
+              file = file,
+              selector = ".formattable_widget",
+              delay = delay)
+    }
+
+ST1 <- formattable(asm_stats_no_euk, list(
+  `Contigs (n)` = color_tile("lightgreen", "red"),
+  `Mean Fold Coverage` = color_tile("yellow", "red")
+))
+
+export_formattable(ST1, "Tables/ST1.png")
+
+export_formattable(ST1, "Tables/ST1.pdf")
+
+
+
+min(asm_stats_no_euk$`Mean Fold Coverage`)
+max(asm_stats_no_euk$`Mean Fold Coverage`)
+mean(asm_stats_no_euk$`Mean Fold Coverage`)
+```
+
+### Strategy to Filter for single isolates
+
+> The goal is to generate a reduced list of isolates that are comprised only by single pure isolates. Factors to be used in achieving this goal are:
+> Genus level Classification (Yes, No)
+> Number of Genomic Bins (1, 2, 3, 4, 5)
+> Assembly Size (More than 10 Mb - Y/N)
+
+```{r}
+# add genus level classification info
+Genus_BCW_IDs <- read.csv("./bcw_id_genus.csv", header = T)
+asm_stats_no_euk_genus <- asm_stats_no_euk
+asm_stats_no_euk_genus$Genus <- Genus_BCW_IDs$Genus[match(asm_stats_no_euk$Isolate, Genus_BCW_IDs$BCW_ID)]
+```
+
+#### Show unassigned Genus isolates
+
+```{r}
+asm_stats_no_euk_genus_unassigned <- asm_stats_no_euk_genus %>% filter(Genus == "unassigned")
+
+smash_df %>% filter(Genus == "unassigned") %>% count()
+```
+
